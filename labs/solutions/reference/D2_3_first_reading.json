@@ -1,0 +1,20 @@
+{
+  "staff": 120,
+  "everUsed": 110,
+  "everUsedPct": 92,
+  "regular": 43,
+  "regularPct": 36,
+  "weeklyActivePct": 49,
+  "responses": 65,
+  "responseRatePct": 54,
+  "selfReportedUses": 7.7,
+  "loggedUses": 3.7,
+  "selfReportedSaved": 16.1,
+  "timedTasks": 48,
+  "grossSaved": 20.3,
+  "netSaved": 7.8,
+  "noGain": 11,
+  "noGainPct": 23,
+  "reworked": 12,
+  "checkAndReworkPct": 62
+}
