@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "A": 6,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "categories": {
+    "T01": "B",
+    "T02": "A",
+    "T03": "B",
+    "T04": "A",
+    "T05": "D",
+    "T06": "B",
+    "T07": "C",
+    "T08": "A",
+    "T09": "C",
+    "T10": "A",
+    "T11": "C",
+    "T12": "A",
+    "T13": "D",
+    "T14": "A"
+  },
+  "duplicates": {
+    "T12": "T02"
+  },
+  "chosen": [
+    {
+      "id": "T08",
+      "weeklyMinutes": 125,
+      "cat": "A"
+    },
+    {
+      "id": "T03",
+      "weeklyMinutes": 120,
+      "cat": "B"
+    },
+    {
+      "id": "T06",
+      "weeklyMinutes": 120,
+      "cat": "B"
+    }
+  ],
+  "escalate": [
+    "T05",
+    "T13"
+  ]
+}

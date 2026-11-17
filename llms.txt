@@ -1,0 +1,35 @@
+# قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون
+
+> تقود عيادات على مهام زملائك الحقيقية، وتعلّم بمثال محلول ثم ممارسة دون ذكاء اصطناعي، وتدير مكتبة طلبات لها مالك وتاريخ مراجعة، وتقيس القيمة بما يتجاوز التقرير الذاتي. مقرر من أكاديمية سدايا، الرمز USE-FLU-303، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/use-flu-303/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/use-flu-303/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/use-flu-303/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 16,953 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/use-flu-303/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: السفير والعيادة](https://sdaiaacademy.github.io/use-flu-303/slides/day1.md): تعرف حدود دورك، وتجمع المهام دون بيانات سرية، وتخطط عيادة من 45 دقيقة، وتكتب ملاحظات دون ذكاء اصطناعي، وتقود جزءًا من عيادة تحت الملاحظة؛ الجلسات: دور السفير وحدوده، مثال محلول ثم ممارسة دون ذكاء اصطناعي، ملاحظات تحسّن الطلب والتحقق، العيادة في الغرفة: المتردد والمفرط في الثقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/slides/day1.html؛ نحو 7,959 من الوحدات النصية
+- [اليوم 2: المكتبة والقياس والاتفاق](https://sdaiaacademy.github.io/use-flu-303/slides/day2.md): تكمل مكتبة مشتركة لها مالك وقواعد بيانات وتاريخ مراجعة، وتسحب ما شاخ، وتقيس الاستخدام والقيمة بما يتجاوز التقرير الذاتي، وتكتب اتفاق الوحدة على العمل المشترك؛ الجلسات: مكتبة مشتركة لكل مدخل فيها مالك، المراجعة والسحب: المكتبة تشيخ، قياس الاستخدام والقيمة بما يتجاوز التقرير الذاتي، العمل المشترك: التحقق قبل المشاركة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/slides/day2.html؛ نحو 6,842 من الوحدات النصية
+- [المشروع الختامي: مهمة الثلاثين يومًا ومكالمة المتابعة](https://sdaiaacademy.github.io/use-flu-303/slides/capstone.md): عيادة في وحدتك، ومكتبة مهيأة، وقياس أول، وتقرير من صفحة واحدة يُراجَع في مكالمة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/slides/capstone.html؛ نحو 1,386 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: فرز المهام المجموعة](https://sdaiaacademy.github.io/use-flu-303/labs/D1_1_task_screening.md): اليوم 1، الجلسة 1، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D1_1_task_screening.html
+- [المختبر 1.2: خطة العيادة ودرسها القصير](https://sdaiaacademy.github.io/use-flu-303/labs/D1_2_clinic_plan.md): اليوم 1، الجلسة 2، 40 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D1_2_clinic_plan.html
+- [المختبر 1.3: ملاحظات على ستة طلبات دون ذكاء اصطناعي](https://sdaiaacademy.github.io/use-flu-303/labs/D1_3_feedback_ai_off.md): اليوم 1، الجلسة 3، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D1_3_feedback_ai_off.html
+- [المختبر 1.4: العيادة التدريبية المرصودة](https://sdaiaacademy.github.io/use-flu-303/labs/D1_4_practice_clinic.md): اليوم 1، الجلسة 4، 60 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D1_4_practice_clinic.html
+- [المختبر 2.1: عشرة مدخلات من الأقران](https://sdaiaacademy.github.io/use-flu-303/labs/D2_1_library_entries.md): اليوم 2، الجلسة 1، 40 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D2_1_library_entries.html
+- [المختبر 2.2: راجع مدخلين أو اسحبهما](https://sdaiaacademy.github.io/use-flu-303/labs/D2_2_review_retire.md): اليوم 2، الجلسة 2، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D2_2_review_retire.html
+- [المختبر 2.3: خطة قياس وقراءة أولى](https://sdaiaacademy.github.io/use-flu-303/labs/D2_3_measurement.md): اليوم 2، الجلسة 3، 45 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D2_3_measurement.html
+- [المختبر 2.4: اتفاق الوحدة على العمل المشترك](https://sdaiaacademy.github.io/use-flu-303/labs/D2_4_unit_agreement.md): اليوم 2، الجلسة 4، 40 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-303/labs/D2_4_unit_agreement.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/use-flu-303/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 16,953 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/use-flu-303/context/day1.md): اليوم 1، نحو 7,959 من الوحدات النصية
+- [context/day2.md](https://sdaiaacademy.github.io/use-flu-303/context/day2.md): اليوم 2، نحو 6,842 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/use-flu-303/context/capstone.md): المشروع الختامي، نحو 1,386 من الوحدات النصية

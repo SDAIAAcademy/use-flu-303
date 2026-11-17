@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 2.3 · خطة قياس وقراءة أولى · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D2_3_measurement.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day2.html#lab-2-3">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 2.3</span>
+<h1>خطة قياس وقراءة أولى</h1>
+<p>تكتب خطة قياس لتجربة «تِبيان» في ثلاث إدارات، ثم تقرأ تقرير الاستخدام والاستبيان وعينة التوقيت قراءة أولى</p>
+<div class="meta"><span>45 دقيقة</span><span>اليوم 2</span><span>الجلسة 3: قياس الاستخدام والقيمة بما يتجاوز التقرير الذاتي</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="2.3">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>خطة قياس لتجربة «تِبيان»: مؤشرات للاستخدام والقيمة والجودة، لكل منها تعريف دقيق ومصدر وتكرار وما لا يقوله.</li>
+    <li>قراءة أولى في فقرة، من ثلاثة مصادر لا من التقرير الذاتي وحده. هذا دليل الناتج الرابع.</li>
+  </ul>
+</div>
+
+<p>جرّبت الهيئة «تِبيان» ثمانية أسابيع في ثلاث إدارات: المنح والمستفيدين، والعقارات الموقوفة، والشؤون القانونية. يريد مدير الإدارة أن يعرف قبل التوسع: هل يُستخدم، وهل يوفّر وقتًا؟</p>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/pilot/usage_report.csv" download><b>usage_report.csv</b><span>تقرير الاستخدام من المساعد: لكل موظف في التجربة عدد جلساته في كل أسبوع من الثمانية.</span></a>
+  <a href="files/pilot/survey_responses.csv" download><b>survey_responses.csv</b><span>تصدير الاستبيان بعد التجربة: الاستخدام المعلن، والدقائق الموفرة المعلنة، والتحقق، والرضا.</span></a>
+  <a href="files/pilot/time_sample.csv" download><b>time_sample.csv</b><span>عينة توقيت: مهمتان لكل شخص، بالدقائق دون المساعد ومعه، والتحقق، وإعادة العمل.</span></a>
+  <a href="files/start/measurement_plan_template.md" target="_blank"><b>measurement_plan_template.md</b><span>قالب الخطة: جدول المؤشرات، ثم فقرة القراءة الأولى.</span></a>
+</div>
+
+<div class="callout note"><b>سياسة المقرر هنا:</b> المساعد معلّم في خطة القياس: يسألك عن تعريفاتك ولا يكتبها. الحساب في برنامج الجداول.</div>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · الخطة <span class="min">10 دقائق</span></h3>
+  <p>اكتب أربعة مؤشرات على الأقل: واحد للاستخدام، وواحد للقيمة، وواحد للجودة، ورابع من اختيارك. التعريف «بالضبط»: ما الذي يُعدّ، ومن أي ملف، وعلى أي فترة. وعمود «ما لا يقوله» إلزامي.</p>
+</div>
+
+<div class="step">
+  <h3>2 · تقرير الاستخدام <span class="min">9 دقائق</span></h3>
+  <p>أضف عمودين: عدد الأسابيع التي فيها جلسة واحدة على الأقل، ومجموع الجلسات. ثم احسب: كم موظفًا جرّب مرة على الأقل؟ وكم موظفًا له جلسة في ستة أسابيع على الأقل؟ ومتوسط الجلسات في الأسبوع لكل الموظفين؟</p>
+  <div class="prompt" data-tool="جدول البيانات">=COUNTIF(<span class="ph">C2:J2</span>,"&gt;0")</div>
+</div>
+
+<div class="step">
+  <h3>3 · الاستبيان <span class="min">8 دقائق</span></h3>
+  <p>كم أجاب من موظفي التجربة؟ ما متوسط الجلسات الأسبوعية التي أعلنها المجيبون، مقارنة بالمتوسط في تقرير الاستخدام لكل الموظفين؟ وما متوسط الدقائق الموفرة في المهمة بحسب المجيبين؟</p>
+</div>
+
+<div class="step">
+  <h3>4 · عينة التوقيت <span class="min">10 دقائق</span></h3>
+  <p>أضف عمودين: المكسب الإجمالي (دون المساعد ناقص المسودة)، والوقت الصافي (دون المساعد ناقص المسودة والتحقق وإعادة العمل). احسب متوسط كل منهما، وعدّ المهام التي وقتها الصافي صفر أو أقل.</p>
+</div>
+
+<div class="step">
+  <h3>5 · القراءة الأولى <span class="min">8 دقائق</span></h3>
+  <p>اكتب فقرة من خمس جمل: ما نعرفه، وما يقوله التقرير الذاتي، وما تقوله العينة، وما لا نعرفه بعد، وما سنقيسه في الشهر القادم. ثم قارن أرقامك بالمرجع.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي: سؤالان أفضل</h3>
+  <p>اكتب سؤالين للاستبيان القادم يقلّلان المبالغة في الوقت الموفّر. تلميح: اسأل عن آخر مهمة محددة، لا عن المتوسط.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>ما الفرق بين «جرّب مرة» و«يستخدم بانتظام» في أرقامك؟</li>
+  <li>من غاب عن الاستبيان، وكيف يغيّر غيابه ما يقوله؟</li>
+  <li>كم دقيقة صافية توفّرها المهمة في العينة، مقابل كم في التقرير الذاتي؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرب</summary>
+  <ul>
+    <li>الحل المرجعي: <code>labs/solutions/D2_3_measurement.md</code>، والأرقام في <code>labs/solutions/reference/D2_3_first_reading.json</code>. يعيد <code>node labs/solutions/check.mjs 2.3</code> حسابها من الملفات الثلاثة.</li>
+    <li>جرّب 110 من 120 (92%)، ويستخدم بانتظام 43 (36%)، ومتوسط النشطين في الأسبوع 49%. أجاب 65 (54%)، ومتوسط الجلسات المعلن 7.7 مقابل 3.7 في التقرير. الدقائق الموفرة المعلنة 16.1، والمكسب الإجمالي في العينة 20.3، والصافي 7.8، و11 مهمة من 48 بلا مكسب صافٍ.</li>
+    <li>لاحظ مع القاعة أن المعلن (16.1) أقل من الإجمالي (20.3) وأكثر من ضعف الصافي (7.8): الناس يقدّرون المسودة السريعة وينسون التحقق وإعادة العمل.</li>
+    <li>الخطأ الأكثر شيوعًا: قسمة المجموع على المجيبين بدل كل الموظفين في متوسط الاستخدام، ونسيان إعادة العمل في الصافي.</li>
+  </ul>
+</details>
+</article>
+<nav class="pager"><a href="D2_2_review_retire.html" rel="prev">→ المختبر السابق</a><a href="D2_4_unit_agreement.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار الطلاقة في البيانات والذكاء الاصطناعي · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-17⁩ · الإيداع e32af92</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T21:29:32Z","version":"2027.1.0","commit":"e32af92"},"course":{"id":"use-flu-303","code":"USE-FLU-303","title":"قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-flu-303/","repo":"SDAIAAcademy/use-flu-303","home":"../index.html"},"lab":{"id":"2.3","title":"خطة قياس وقراءة أولى","summary":"تكتب خطة قياس لتجربة «تِبيان» في ثلاث إدارات، ثم تقرأ تقرير الاستخدام والاستبيان وعينة التوقيت قراءة أولى","minutes":45,"day":2,"unit":"اليوم 2","session":3,"deck":"../slides/day2.html#lab-2-3","prev":"D2_2_review_retire.html","next":"D2_4_unit_agreement.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>
